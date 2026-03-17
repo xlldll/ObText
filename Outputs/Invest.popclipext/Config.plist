@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>javascript file</key>
+			<string>config.js</string>
+			<key>Title</key>
+			<string>Obtext</string>
+			<key>Image File</key>
+			<string>obtext.png</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>cn.siriyang.popclip.extension.obciv</string>
+			<key>Check Installed</key>
+			<false/>
+			<key>Link</key>
+			<string>https://obsidian.md/</string>
+			<key>Name</key>
+			<string>Obsidian</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Marc Abramowitz</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Capture cleaned text to Obsidian.</string>
+	<key>Extension Identifier</key>
+	<string>cn.siriyang.popclip.extension.obciv</string>
+	<key>Extension Name</key>
+	<string>IV</string>
+</dict>
+</plist>
