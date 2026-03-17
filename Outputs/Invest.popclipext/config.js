@@ -52,11 +52,11 @@ exports.options = [
 
 function cleanText(text) {
   return String(text || "")
-    .replace(/\u00A0/g, " ")
-    .replace(/\r\n?/g, "\n")
-    .replace(/[ \t]+$/gm, "")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
+    .replace(/\u00A0/g, " ")        // replace non-breaking space
+    .replace(/\r\n?/g, "\n")        // normalize line breaks
+    .replace(/[ \t]+$/gm, "")       // remove trailing spaces
+    .replace(/\n{2,}/g, "\n")       // collapse ALL blank lines to ONE line
+    .trim();                        // remove leading/trailing blank lines
 }
 
 function safeEncode(value) {
