@@ -18,7 +18,7 @@ exports.options = [
     identifier: "fileName",
     label: "File Name",
     type: "string",
-    defaultValue: "Todo-2026",
+    defaultValue: "US-2026",
     description: "Optional destination file. Leave blank to use Daily Note."
   },
   {

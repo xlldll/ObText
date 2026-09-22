@@ -146,6 +146,7 @@ function capture(text, options) {
 
   var url = buildObsidianUrl(options, text);
   popclip.openUrl(url, { activate: false });
+  popclip.copyText(url);
 }
 
 exports.action = {
