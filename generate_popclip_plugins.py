@@ -10,8 +10,8 @@ import shutil
 PLUGINS = [
     {
         "name": "CN",
-        "identifier": "com.terry.obsidian.cn",
-        "file_name": "CN-2026",
+        "identifier": "com.terry.obsidian.cn202602",
+        "file_name": "CN-2026-2",
     },
     {
         "name": "US",
